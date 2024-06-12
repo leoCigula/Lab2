@@ -1,0 +1,32 @@
+html{
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}
+
+@font-face {
+    font-family: "Abolition";
+    src: url(../fonts/AbolitionTest-Oblique.otf) format("otf");
+}
+
+@font-face {
+    font-family: "Jersey";
+    src: url(../fonts/Jersey10Charted-Regular.ttf) format("truetype");
+}
+
+p{
+    color: gold;
+}
+
+.kategorijaText2{
+    text-align: left;
+    margin-left: 5%;
+    font-size: xx-large; 
+    font-family: Jersey;
+
+}
+
+
+
+
+
+

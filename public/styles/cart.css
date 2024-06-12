@@ -1,0 +1,109 @@
+html{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient( #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+    background-attachment: fixed; /*edit*/
+}
+
+.cartHeader{
+    border-style: solid;
+    height: 50vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.cartBody{
+    border-style: solid;
+    height: 70vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    position: relative;
+}
+
+#logo{
+    border-style: solid;
+   width: 30%;
+    height: 90%;
+}
+#banner{
+    border-style: solid;
+    width: 60%;
+    margin-left: 2.5%;
+    height: 90%;
+}
+
+#logo,#banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#logo>img,#banner>img{
+    height: 80%;
+    width: 80%;
+}
+#break{
+    margin-top: 2%;
+    height: 1%;
+    width: 100%;
+}
+
+.cartBodyHeader{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 1%;
+    height: 10%;
+    width: 80vw;
+    border-style: solid;
+
+}
+#proizvodi{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+#proizvodi>div{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+}
+.pro>div{
+    width: 50%;
+}
+.pro>.proizvodButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.pro>.proizvodButton>button{
+    height: 50%;
+}
+
+#textKosarica{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#kosarica{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

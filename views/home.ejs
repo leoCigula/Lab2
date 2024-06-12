@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MultimediaShop</title>
+    <link rel="stylesheet" href="/styles/united.css">
+    <link rel="stylesheet" href="/styles/pc.css">
+    <link rel="stylesheet" href="/styles/mob.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img id="logoimg" src="/images/logoM.png">
+        </div>
+        <div class="kategorija">
+            <p class="chosenCat">Odaberi kategoriju</p>
+        </div>
+        <div class="icons">
+            <div class="cart">
+                <a href="/cart">
+                    <div id="shopkart">
+                        <img src="/images/kart.png">
+                        <div class="numOfItems">
+                            <p id="num">0</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="search">
+                <div id="povecalo">
+                    <img src="/images/search.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tijelo">
+        <div class="slika">
+            <div class="bannerText">
+                <p class="welcome"> Dobrodosli u Multimedia</p>
+            </div>
+            <div id="slikaD">
+                <img src="/images/banner.png">
+            </div>
+        </div>
+        <div id="kategorije">
+            <ul>
+                <% categories.forEach(category => { %>
+                    <p id="kat<%= category.id %>" data="<%= category.id %>" onclick="loadProducts('<%= category.id %>')">
+                        <%= category.name %>
+                    </p>
+                <% }) %>
+            </ul>
+        </div>
+        <div class="kontakt">
+            <ul>
+                <a href="https://www.yourmom.co/"><p id="kont">Kontakt</p></a>
+                <a href="https://www.yourmom.co/"><p id="news">Newsletter</p></a>
+                <a href="https://www.yourmom.co/"><p id="pretp">Pretplati se</p></a>
+            </ul>
+        </div>
+        <div class="proizvodi" id="proizvodi"></div>
+    </div>
+    <script src="/scripts/home.js"></script>
+</body>
+</html>

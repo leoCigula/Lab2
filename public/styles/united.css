@@ -1,0 +1,65 @@
+html{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: column;
+    align-items: center;
+    background-image: linear-gradient( #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+    background-attachment: fixed; /*edit*/
+}
+
+.numOfItems{
+    display: none;
+    position: absolute;
+    bottom: -5px;
+    right: -15px;
+    background-color: lightcoral;
+    border-color: red;
+    border: solid red;
+    border-radius: 50%;
+    padding: 0px 12px;
+    opacity: 90%;
+}
+
+
+
+
+@media screen and (max-height:500px) and (min-height:200px){
+    ul>p{
+        font-size: x-small;
+    }
+}
+@media screen and (max-height:767px) and (min-height:500px){
+    ul>p{
+        font-size: medium;
+    }
+}
+@media screen  and (max-height:899px) and (min-height:768px) {
+    ul>p{
+        font-size: large;
+    }
+}
+@media screen and (max-height:199px){
+    ul>p{
+        font-size: xx-small;
+    }
+}
+@media screen and  (min-height:900px){
+    ul>p{
+        font-size: x-large;
+    }
+}
+
+#shopkart{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+
+#povecalo{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}

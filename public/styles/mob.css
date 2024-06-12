@@ -1,0 +1,198 @@
+@media screen and (max-width:1023px) {
+    .header{
+        display: flex;
+        flex-direction: row;
+        flex-flow: row;
+        flex-wrap: wrap;
+        height: 40vh;
+        width: 90vw;
+        align-items: start;
+    }
+
+    .logo{
+        order:0;
+        height: 45%;
+        width: 45%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-right: 25%;
+        border-style: solid;
+    }
+
+    #logoimg{
+        height: 95%;
+        width: 60%;
+        transform: translateX(25%);
+    }
+    .kategorija{
+        margin-top: 5%;
+        height: 45%;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-style: solid;
+    }
+
+    .icons{
+        margin-top: 5%;
+        margin-left: 5%;
+        width: 35%;
+        height: 45%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        border-style: solid;
+    }
+
+    .cart{
+        height: 80%;
+        width: 45%;
+        margin: 2.5%;
+    }
+
+    .search{
+        height: 80%;
+        width: 45%;
+    }
+
+    #povecalo>img,#shopkart > img{
+        height: 70%;
+        width: 70%;
+    }
+
+    .tijelo{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-direction: row;
+        height: 150vh;
+        margin-top: 10vh;
+        width: 90vw;
+        border-style : solid;
+    }
+
+    .slika{
+        order: -1;
+        margin-left: 10%;
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
+        height: 25%;
+        width: 80%;
+        border-style: solid;
+
+    }
+    .bannerText{
+        order: 0;
+        width: 90%;
+        height: 10%;
+    }
+    #slikaD{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        order: 1;
+        width: 90%;
+        height: 80%;
+    }
+
+    #slikaD>img{
+        width: 75%;
+        height: 100%;
+    }
+
+
+    #kategorije{
+        order:0;
+        margin-left: 10%;
+        width: 30%;
+        height: 40%;
+        border-style: solid;
+    }
+
+    .kontakt{
+        order:2;
+        width: 30%;
+        height: 20%;
+        border-style: solid;
+        margin-left: 10%;
+        transform: translateY(-90%);
+    }
+
+    .proizvodi{
+        margin-left: 5%;
+        order: 1;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 50%;
+        height: 65%;
+        border-style: solid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .proizvod{
+        height: 30%;
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        border-style: solid;
+        position: relative;
+        margin: 3%;
+    }
+
+    .proizvod > img{
+        height: 70%;
+        width: 80%;
+    }
+    
+    .numOfItems{
+        display: none;
+        position: absolute;
+        bottom: -5px;
+        right: 25px;
+        background-color: lightcoral;
+        border-color: red;
+        border: solid red;
+        border-radius: 50%;
+        padding: 0px 8px;
+        opacity: 90%;
+    }
+
+    .cartHover{
+        display: none;
+        position: absolute;
+        height: 25%;
+        width: 25%;
+        transform: translateX(30%) translateY(100%);
+    }
+    .cartHover>img{
+        height: 80%;
+        width: 40%;
+    }
+    
+    .numOfItem{
+        position: absolute;
+        display: none;
+        bottom: 0px;
+        right: 0px;
+        background-color: lightcoral;
+        border-color: red;
+        border: solid red;
+        border-radius: 50%;
+        padding: 0px 12px;
+        opacity: 90%;
+    }
+    #num{
+        font-weight: bold;
+        opacity: 100%;
+        font-size: 11px;
+    }
+}
